@@ -1,4 +1,5 @@
-class CreateEstados < ActiveRecord::Migration[6.0]
+module EstadosBrasileirosActiveRecord
+  class CreateEstados < ActiveRecord::Migration[6.0]
     def change
       unless table_exists?(:estados)
         create_table :estados do |t|
@@ -7,4 +8,5 @@ class CreateEstados < ActiveRecord::Migration[6.0]
         end
       end
     end
+  end
 end
