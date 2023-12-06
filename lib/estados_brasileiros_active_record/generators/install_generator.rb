@@ -13,6 +13,11 @@ module EstadosBrasileirosActiveRecord
                 model_file = 'models/estado.rb'
                 copy_file model_file, "app/models/estados_brasileiros_active_record/estado.rb"
             end
+
+            def copy_migrate_file
+                model_file = 'migrate/xxx_estados_brasileiros.rb'
+                copy_file model_file, "app/db/migrate/#{Time.zone.now.to_i}_estados_brasileiros.rb"
+            end
         end
     end
 end
