@@ -5,7 +5,7 @@ module EstadosBrasileirosActiveRecord
             source_root File.expand_path('../', __dir__)
 
             def copy_rake_file
-                rake_file = '/tasks/importacao_estados.rake'
+                rake_file = 'tasks/importacao_estados.rake'
                 copy_file rake_file, "lib/tasks/importacao_estados.rake"
             end
             
