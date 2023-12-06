@@ -1,7 +1,7 @@
 require 'active_record'
 require 'byebug'
-require_relative '../lib/estados_brasileiros_active_record/migrate/xxx_estados_brasileiros'
-require "estados_brasileiros_active_record"
+require_relative '../lib/estados_brasileiros/migrate/xxx_estados_brasileiros'
+require "estados_brasileiros"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

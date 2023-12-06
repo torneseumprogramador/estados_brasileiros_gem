@@ -32,7 +32,7 @@ namespace :impotacao_estados do
         ]
 
         estados.each do |estado_data|
-            EstadosBrasileirosActiveRecord::Estado.find_or_create_by!(nome: estado_data[:nome], sigla: estado_data[:sigla])
+            EstadosBrasileiros::Estado.find_or_create_by!(nome: estado_data[:nome], sigla: estado_data[:sigla])
         end
         
         puts "Estados importados com sucesso!"

@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/estados_brasileiros_active_record/version"
+require_relative "lib/estados_brasileiros/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "estados_brasileiros_active_record"
-  spec.version = EstadosBrasileirosActiveRecord::VERSION
+  spec.name = "estados_brasileiros"
+  spec.version = EstadosBrasileiros::VERSION
   spec.authors = ["Danilo Aparecido dos Santos"]
   spec.email = ["didox_59@yahoo.com.br"]
 

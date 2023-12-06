@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    estados_brasileiros_active_record (0.1.0)
+    estados_brasileiros (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -226,7 +226,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord (~> 7.0)
   byebug
-  estados_brasileiros_active_record!
+  estados_brasileiros!
   rails (~> 7.0)
   rake (~> 13.0)
   rspec (~> 3.0)

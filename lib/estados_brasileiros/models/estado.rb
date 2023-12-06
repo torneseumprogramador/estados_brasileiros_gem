@@ -1,4 +1,4 @@
-module EstadosBrasileirosActiveRecord
+module EstadosBrasileiros
     class Estado < ActiveRecord::Base
         validates_presence_of :nome, :sigla
     end

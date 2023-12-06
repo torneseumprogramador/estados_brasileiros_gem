@@ -1,5 +1,5 @@
 require 'rails/generators'
-module EstadosBrasileirosActiveRecord
+module EstadosBrasileiros
     module Generators
         class InstallGenerator < Rails::Generators::Base
             source_root File.expand_path('../', __dir__)
@@ -11,7 +11,7 @@ module EstadosBrasileirosActiveRecord
             
             def copy_model_file
                 model_file = 'models/estado.rb'
-                copy_file model_file, "app/models/estados_brasileiros_active_record/estado.rb"
+                copy_file model_file, "app/models/estados_brasileiros/estado.rb"
             end
 
             def copy_migrate_file

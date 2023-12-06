@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in estados_brasileiros_active_record.gemspec
+# Specify your gem's dependencies in estados_brasileiros.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
