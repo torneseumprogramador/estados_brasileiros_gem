@@ -16,7 +16,7 @@ module EstadosBrasileirosActiveRecord
 
             def copy_migrate_file
                 model_file = 'migrate/xxx_estados_brasileiros.rb'
-                copy_file model_file, "app/db/migrate/#{Time.zone.now.to_i}_estados_brasileiros.rb"
+                copy_file model_file, "db/migrate/#{Time.zone.now.to_i}_estados_brasileiros.rb"
             end
         end
     end
